@@ -1,3 +1,4 @@
+```mermaid
 stateDiagram-v2
     [*] --> Placed
     Placed --> Preparing : Restaurant Accepts
@@ -6,3 +7,4 @@ stateDiagram-v2
     Shipped --> Returned : Customer Rejects
     Delivered --> [*]
     Placed --> Cancelled : User Cancels
+```
